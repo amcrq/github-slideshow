@@ -1,0 +1,115 @@
+First Code
+x = 5 #Integer
+y = "Hello this is a string"
+z = 2.1
+aListOfCars = ["honda","toyota"] #list of strings
+
+Second Code
+name = "Suriya" #String
+age = 12 #integer
+ 
+print("Hello World!")
+ 
+print(f"Hello. My name is {name}. I am {age}yrs old")
+
+Third Code
+if(score >= 75):
+  print("You got an A!")
+elif(score < 75 and score >= 65):
+  print("You got a B!")
+elif(score < 65 and score >= 55):
+  print("You got a C!")
+elif(score < 55 and score >= 45):
+  print("You got a D!")
+else:
+  print("You failed!")
+
+Fourth Code
+name = input("Hello, What is your name? : ")
+ 
+age = input("What is your age? : ")
+ 
+print(f"Hello {name}! You are {age}yrs old!")
+
+Fifth Code
+age = int(input("What is your age? : "))
+ 
+future = age + 20
+ 
+print(f"In 20 years you will be {future}")
+
+Sixth Code
+emptyList = []
+ 
+fruitList = ["apple", "banana", "cherry"]
+ 
+rnadomList = [1,2,3,4,5,True,"Hello", fruitList]
+ 
+ 
+for x in fruitList:
+ print(x)
+
+Seventh Code
+emptyList = []
+ 
+fruitList = ["apple", "banana", "cherry"]
+ 
+rnadomList = [1,2,3,4,5,True,"Hello", fruitList]
+ 
+print(fruitList[0:2])
+ 
+print(len(fruitList))
+ 
+ 
+fruitList.append("tomato")
+fruitList.append("apple")
+print(fruitList)
+
+Eighth Code
+input = [0,0,1,1,0,1,1,0,1,0,0,1]
+numberOfZerosInList = 0
+for number in input:
+    if number == 0:
+        numberOfZerosInList += 1
+print(numberOfZerosInList)
+
+9th code
+PassList = [5353]
+name = input("Name : ")
+password = input("Password : ")
+ 
+if password in PassList:
+ print("Correct Password")
+else:
+ print("Wrong Password")
+
+10th code
+NameList = []
+name = input("Enter a name : ")
+NameList.append(name)
+print(NameList)
+name = input("Enter a name : ")
+if name in NameList: 
+  print ('username taken')
+else:
+  print ('username available')
+
+11th code
+NameList = []
+name = input("Enter a name : ")
+NameList.append(name)
+print(NameList)
+name = input("Enter a name : ")
+if name in NameList:
+ print ('username taken')
+else:
+ print ('username available')
+
+12th code
+f = open('file.txt','w');f.close()
+
+13th code
+import time
+while True:
+  time.sleep(5)
+  print('hello')
